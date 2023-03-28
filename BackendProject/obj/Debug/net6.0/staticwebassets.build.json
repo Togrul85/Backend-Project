@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "L+l4iSlXEFdehQIuIStzk7Og/A4KV5zaw/hUG6mAkLc=",
+  "Source": "BackendProject",
+  "BasePath": "_content/BackendProject",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BackendProject\\wwwroot",
+      "Source": "BackendProject",
+      "ContentRoot": "C:\\Users\\Togrul\\Desktop\\Backend\\BackendProject\\BackendProject\\wwwroot\\",
+      "BasePath": "_content/BackendProject",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Togrul\\Desktop\\Backend\\BackendProject\\BackendProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BackendProject.styles.css",
+      "SourceId": "BackendProject",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Togrul\\Desktop\\Backend\\BackendProject\\BackendProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/BackendProject",
+      "RelativePath": "BackendProject.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Togrul\\Desktop\\Backend\\BackendProject\\BackendProject\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BackendProject.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Togrul\\Desktop\\Backend\\BackendProject\\BackendProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BackendProject.bundle.scp.css",
+      "SourceId": "BackendProject",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Togrul\\Desktop\\Backend\\BackendProject\\BackendProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/BackendProject",
+      "RelativePath": "BackendProject.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Togrul\\Desktop\\Backend\\BackendProject\\BackendProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BackendProject.bundle.scp.css"
+    }
+  ]
+}
