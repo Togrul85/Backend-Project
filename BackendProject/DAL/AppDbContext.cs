@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using BackendProject.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace BackendProject.DAL
 {
@@ -9,7 +10,7 @@ namespace BackendProject.DAL
         {
 
         }
-
+        public DbSet<Slider> Sliders { get; set; }
 
     }
 }
