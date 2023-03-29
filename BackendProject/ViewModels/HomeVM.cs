@@ -7,5 +7,6 @@ namespace BackendProject.ViewModels
         public List<Slider> Sliders { get; set; }
         public List<NoticeBoard> NoticeBoards { get; set; }
         public List<EduHome> EduHomes { get; set; }
+        public Student Student { get; set; }
     }
 }

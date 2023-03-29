@@ -14,6 +14,7 @@ namespace BackendProject.DAL
         public DbSet<NoticeBoard> NoticeBoards { get; set; }
         public DbSet<EduHome> EduHomes { get; set; }
         public DbSet<Bio> Bios { get; set; }
+        public DbSet<Student> Students { get; set; }
 
 
        
