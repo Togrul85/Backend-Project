@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KocWecl1uK2uFYdJXnPlZGZog7cEj5TVj7/vlLrSDPPglTi8UYotLGBktN0zrFINnsW9jS2LS0KAbMz8R2BF2w==",
+  "dgSpecHash": "STV7HvH+tCk/q3rG+bF/5K+lZs7/NJaNlEMYbo7v93xG7235eZh2ZUqXjL3nsfCQ+l8KYXarvqzsV24GuzTe5g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Togrul\\Desktop\\asasa\\Backend-Project\\BackendProject\\BackendProject.csproj",
+  "projectFilePath": "C:\\Users\\Togrul\\Desktop\\Backend1\\Backend-Project\\BackendProject\\BackendProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Togrul\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Togrul\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
