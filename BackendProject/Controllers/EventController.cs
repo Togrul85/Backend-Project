@@ -39,9 +39,12 @@ namespace BackendProject.Controllers
         }
         public async Task<IActionResult> Detail(int id)
         {
+            var eventDetail = _appDbContext.Events.Where(x => x.Id == id).FirstOrDefault();
             EventVM eventVM =new();
-            eventVM.Id = id;
-            
+            eventVM.Id = eventDetail.Id;
+            eventVM.ImageUrl= eventDetail.ImageUrl;
+
+     
             
 
 
