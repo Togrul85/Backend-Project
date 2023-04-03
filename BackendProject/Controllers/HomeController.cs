@@ -24,6 +24,8 @@ namespace BackendProject.Controllers
             homeVM.EduHomes = _appDbContext.EduHomes.ToList();
             homeVM.Student = _appDbContext.Students.FirstOrDefault();
             homeVM.Courses = _appDbContext.Courses.ToList();
+            homeVM.WeOffers = _appDbContext.WeOffers.ToList();
+            homeVM.FromBlogs = _appDbContext.FromBlogs.ToList();
             return View(homeVM);
         }
 

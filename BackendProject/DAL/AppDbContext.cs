@@ -26,6 +26,10 @@ namespace BackendProject.DAL
         public DbSet<Event> Events { get; set; }
         public DbSet<EventSpeaker> EventSpeakers { get; set; }
         public DbSet<Speaker> Speakers { get; set; }
+      public DbSet<WeOffer> WeOffers { get; set; }
+        public DbSet<FromBlog> FromBlogs { get; set; }
+        public DbSet<Blog> Blogs { get; set; }
+        public DbSet<BlogDetail> BlogDetails { get; set; }
 
     }
 }
