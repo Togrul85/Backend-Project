@@ -32,10 +32,7 @@ namespace BackendProject.Controllers
             aboutVM.Teachers = await _appDbContext.Teachers.ToListAsync();
             aboutVM.Skills = await _appDbContext.Skills.ToListAsync();
             aboutVM.Contacts = await _appDbContext.Contacts.FirstOrDefaultAsync();
-
-
-
-            return View(aboutVM);
+         return View(aboutVM);
         }
     }
 }

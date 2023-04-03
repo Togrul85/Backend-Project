@@ -6,7 +6,7 @@
 
         public string ImageUrl { get; set; }
 
-        public string StartDate { get; set; }
+        public DateTime StartDate { get; set; }
 
         public float DurationMonth { get; set; }
 
@@ -25,5 +25,9 @@
         public int CategoryId { get; set; }
 
         public int CourseDetailId { get; set; }
+
+
     }
 }
+
+
