@@ -16,9 +16,9 @@
                             <nav>
                                 <ul>
                                     <li>
-                                        <a asp-action="index" asp-controller="home">Home</a>
+                                        <a asp-controller="home"  asp-action="index">Home</a>
                                         <ul>
-                                            <li><a href="index.html">Home One</a></li>
+                                            <li><a asp-controller="home" asp-action="index">Home One</a></li>
                                             <li><a href="index-2.html">Home Two</a></li>
                                             <li><a href="index-3.html">Home Three</a></li>
                                             <li><a href="index-4.html">Home Four</a></li>
@@ -27,9 +27,9 @@
                                     </li>
                                     <li><a asp-action="index" asp-controller="about">About</a></li>
                                     <li>
-                                        <a href="course.html">courses</a>
+                                        <a asp-action="index" asp-controller="course">courses</a>
                                         <ul>
-                                            <li><a href="course.html">courses</a></li>
+                                            <li><a asp-action="index" asp-controller="course"></a></li>
                                             <li><a asp-action="index" asp-controller="courses details">courses details</a></li>
                                         </ul>
                                     </li>
@@ -50,9 +50,9 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a asp-action="index" asp-controller="blog" >blog</a>     
+                                        <a asp-controller="blog" asp-action="index">Blog</a>
                                         <ul>
-                                            <li><a as>blog</a></li>
+                                            <li><a >blog</a></li>
                                             <li><a href="blog-left-side-bar.html">blog left sidebar</a></li>
                                             <li><a href="blog-right-side-bar.html">blog righ sidebar</a></li>
                                             <li><a href="blog-details.html">blog details</a></li>
