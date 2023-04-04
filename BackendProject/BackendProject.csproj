@@ -21,4 +21,9 @@
     <PackageReference Include="Npgsql" Version="6.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\AdminArea\Models\" />
+    <Folder Include="Areas\AdminArea\Views\Category\" />
+  </ItemGroup>
+
 </Project>
