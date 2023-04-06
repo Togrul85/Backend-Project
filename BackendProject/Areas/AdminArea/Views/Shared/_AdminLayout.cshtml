@@ -253,6 +253,7 @@
     <script src="~/admin/vendors/base/vendor.bundle.base.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page-->
+
     <script src="~/admin/vendors/chart.js/Chart.min.js"></script>
     <script src="~/admin/vendors/datatables.net/jquery.dataTables.js"></script>
     <script src="~/admin/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
@@ -267,6 +268,9 @@
     <script src="~/admin/js/data-table.js"></script>
     <script src="~/admin/js/jquery.dataTables.js"></script>
     <script src="~/admin/js/dataTables.bootstrap4.js"></script>
+ 
+        @RenderSection("Scripts", required: false)
+    
     <!-- End custom js for this page-->
 </body>
 

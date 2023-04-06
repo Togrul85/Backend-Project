@@ -33,7 +33,7 @@ namespace BackendProject.Areas.AdminArea.Controllers
             if (id == null) return NotFound();
             Slider slider = _appDbContext.Sliders.SingleOrDefault(s => s.Id == id);
             if (id == null) return NotFound();
-            return View(slider);
+            return View(new SliderUpdateVM { ImageUrl=slider.ImageUrl,Desc=slider.Desc});
         }
 
         public IActionResult Delete(int id)
@@ -75,5 +75,11 @@ namespace BackendProject.Areas.AdminArea.Controllers
 
             return RedirectToAction("Index");
         }
+
+       
     }
 }
+
+
+
+

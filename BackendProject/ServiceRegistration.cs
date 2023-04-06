@@ -1,11 +1,16 @@
-﻿namespace BackendProject
+﻿using BackendProject.DAL;
+
+namespace BackendProject
 {
+    
 
     public static class ServiceRegistration
     {
-        public static void BackendProject(this IServiceCollection service)
-        {
+=
 
-        }
+        public static void BackendProjectServiceRegistration(this IServiceCollection services)
+        {
+            services.AddControllersWithViews();
+                    }
     }
 }
