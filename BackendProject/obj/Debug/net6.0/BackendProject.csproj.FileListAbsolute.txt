@@ -1070,3 +1070,7 @@ C:\Users\Togrul\Desktop\Backend1\Backend-Project\BackendProject\obj\Debug\net6.0
 C:\Users\Togrul\Desktop\Backend1\Backend-Project\BackendProject\obj\Debug\net6.0\BackendProject.pdb
 C:\Users\Togrul\Desktop\Backend1\Backend-Project\BackendProject\obj\Debug\net6.0\BackendProject.genruntimeconfig.cache
 C:\Users\Togrul\Desktop\Backend1\Backend-Project\BackendProject\obj\Debug\net6.0\ref\BackendProject.dll
+C:\Users\Togrul\Desktop\Backend1\Backend-Project\BackendProject\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Togrul\Desktop\Backend1\Backend-Project\BackendProject\bin\Debug\net6.0\MailKit.dll
+C:\Users\Togrul\Desktop\Backend1\Backend-Project\BackendProject\bin\Debug\net6.0\MimeKit.dll
+C:\Users\Togrul\Desktop\Backend1\Backend-Project\BackendProject\bin\Debug\net6.0\BouncyCastle.Crypto.dll

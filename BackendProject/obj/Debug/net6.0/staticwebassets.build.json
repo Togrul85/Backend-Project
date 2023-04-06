@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zvSy2cZ/BUG7tcK1JmGP3jAkzWCR8ghC/ILxCFodqCM=",
+  "Hash": "IpOyfy+HyYnVmd+URakWVFPTS8gixds4BGGCcnnQxwY=",
   "Source": "BackendProject",
   "BasePath": "_content/BackendProject",
   "Mode": "Default",
@@ -2123,6 +2123,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\Togrul\\Desktop\\Backend1\\Backend-Project\\BackendProject\\wwwroot\\assets\\Templates\\verify.html",
+      "SourceId": "BackendProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Togrul\\Desktop\\Backend1\\Backend-Project\\BackendProject\\wwwroot\\",
+      "BasePath": "_content/BackendProject",
+      "RelativePath": "assets/Templates/verify.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\Templates\\verify.html"
     },
     {
       "Identity": "C:\\Users\\Togrul\\Desktop\\Backend1\\Backend-Project\\BackendProject\\wwwroot\\css\\animate.css",

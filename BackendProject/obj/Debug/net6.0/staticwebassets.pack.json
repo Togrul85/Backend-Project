@@ -493,6 +493,10 @@
       "PackagePath": "staticwebassets\\admin\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
     },
     {
+      "Id": "C:\\Users\\Togrul\\Desktop\\Backend1\\Backend-Project\\BackendProject\\wwwroot\\assets\\Templates\\verify.html",
+      "PackagePath": "staticwebassets\\assets\\Templates\\verify.html"
+    },
+    {
       "Id": "C:\\Users\\Togrul\\Desktop\\Backend1\\Backend-Project\\BackendProject\\wwwroot\\css\\animate.css",
       "PackagePath": "staticwebassets\\css\\animate.css"
     },
