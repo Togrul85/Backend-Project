@@ -66,13 +66,13 @@ namespace BackendProject.Controllers
             string link = Url.Action(nameof(ConfirmEmail), "Account", new { userId = user.Id, token },
                 Request.Scheme, Request.Host.ToString());
 
-            string body = string.Empty;
-            string FilePath = "wwwroot/Template/Verify.html";
+            //string body = string.Empty;
+            //string FilePath = "wwwroot/Template/Verify.html";
 
-            body = body.Replace("{{link}}", link);
-            body = body.Replace("{{Fullname}}", user.FullName);
+            //body = body.Replace("{{link}}", link);
+            //body = body.Replace("{{Fullname}}", user.FullName);
 
-            _emailService.Send(user.Email, "Verify Registration", body); // to user.Email
+            _emailService.Send(user.Email, "Verify Registration", ""); // to user.Email
             return RedirectToAction(nameof(VerifyEmail));
         }
 

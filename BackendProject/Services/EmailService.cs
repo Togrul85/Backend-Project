@@ -12,16 +12,14 @@ namespace BackendProject.Services.Email
         public void Send(string userEmail, string subject, string body)
         { 
             var email = new MimeMessage();
-            email.From.Add(MailboxAddress.Parse("toghrulkhs@code.edu.az")); 
+            email.From.Add(MailboxAddress.Parse("tsalmanzade6@gmail.com")); 
             email.To.Add(MailboxAddress.Parse(userEmail));
             email.Subject = subject;
-            email.Body = new TextPart(TextFormat.Html) { Text = body };
-
-
-            
+            email.Body = new TextPart(TextFormat.Plain) { Text = "Salam" };
+       
             using var smtp = new MailKit.Net.Smtp.SmtpClient();
-            smtp.Connect("smtp.gmail.com", 587, SecureSocketOptions.StartTls);  //465 for gmail new
-            smtp.Authenticate("toghrulkhs@code.edu.az", "lkfcesrcfermf");
+            smtp.Connect("smtp.gmail.com", 587, false); 
+            smtp.Authenticate("tsalmanzade6@gmail.com", "zzpdmzvqolkumsrc");
             smtp.Send(email);
             smtp.Disconnect(true);
         }

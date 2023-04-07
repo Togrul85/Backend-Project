@@ -22,45 +22,6 @@ builder.Services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
 var connectionString = builder.Configuration.GetConnectionString("Default");
 builder.Services.AddDbContext<AppDbContext>(x => x.UseSqlServer(connectionString, x => x.MigrationsAssembly("DataAccess")));
 
-builder.Services.AddIdentity<AppUser, IdentityRole>(options =>
-{
-    options.Password.RequireNonAlphanumeric = false;
-    options.Password.RequiredUniqueChars = 0;
-    options.Password.RequireDigit = false;
-    options.Password.RequiredLength = 0;
-    options.Password.RequireUppercase = false;
-    options.Password.RequireLowercase = false;
-
-    options.User.RequireUniqueEmail = true;
-    options.SignIn.RequireConfirmedEmail = true;
-
-    options.Lockout.MaxFailedAccessAttempts = 3;
-    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
-    options.Lockout.AllowedForNewUsers = true;
-
-})
-    .AddEntityFrameworkStores<AppDbContext>()
-    .AddDefaultTokenProviders();
-
-
-
-#region Services
-
-
-builder.Services.AddScoped<IEmailService, EmailService>();
-
-
-
-
-
-
-
-#endregion
-
-#region UtilitiesServices
-
-builder.Services.AddSingleton<IFileService, FileService>();
-#endregion
 
 var app = builder.Build();
 
